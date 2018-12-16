@@ -1,0 +1,11 @@
+[package]
+name = "lines_u8"
+description = "Robust methods for functionality like `std::BufRead::lines` for byte strings."
+license = "MIT/Apache-2.0"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+memchr = "2.1.2"
+
